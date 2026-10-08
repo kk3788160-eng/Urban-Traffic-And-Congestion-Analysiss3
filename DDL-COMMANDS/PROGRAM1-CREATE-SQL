@@ -1,0 +1,8 @@
+CREATE TABLE traffic_data (
+    traffic_id NUMBER PRIMARY KEY,
+    traffic_time DATE NOT NULL,
+    location VARCHAR2(50) NOT NULL,
+    vehicle_count NUMBER NOT NULL,
+    average_speed NUMBER(6,2) NOT NULL,
+    weather VARCHAR2(20) NOT NULL
+);
